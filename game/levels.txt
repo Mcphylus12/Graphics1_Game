@@ -1,3 +1,0 @@
-Level1.txt
-Level2.txt
-Level3.txt
