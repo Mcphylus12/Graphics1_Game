@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Loading\nvImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="door.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enemy8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="key.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Level1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Level2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Level3.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="levels.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="metal_plates.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stairs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="wall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

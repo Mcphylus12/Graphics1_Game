@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsGame", "GraphicsGame\GraphicsGame.vcxproj", "{9DF9DB54-0E09-49F8-8CA2-E034B0776EBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{E9AFF9C5-9F58-4A1D-9609-85F80D917D0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF9DB54-0E09-49F8-8CA2-E034B0776EBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DF9DB54-0E09-49F8-8CA2-E034B0776EBB}.Debug|Win32.Build.0 = Debug|Win32
+		{9DF9DB54-0E09-49F8-8CA2-E034B0776EBB}.Release|Win32.ActiveCfg = Release|Win32
+		{9DF9DB54-0E09-49F8-8CA2-E034B0776EBB}.Release|Win32.Build.0 = Release|Win32
+		{E9AFF9C5-9F58-4A1D-9609-85F80D917D0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9AFF9C5-9F58-4A1D-9609-85F80D917D0C}.Debug|Win32.Build.0 = Debug|Win32
+		{E9AFF9C5-9F58-4A1D-9609-85F80D917D0C}.Release|Win32.ActiveCfg = Release|Win32
+		{E9AFF9C5-9F58-4A1D-9609-85F80D917D0C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
