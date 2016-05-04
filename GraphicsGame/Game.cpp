@@ -474,14 +474,21 @@ void updateGame(Game* g , double dx, double dy, long double time)
 	enemy* enemytest = g->enemies;
 	for(int i = 0; i < g->enemyArraySize; i++)
 	{
-		enemytest->move(g, g->player1.x - enemytest->x, g->player1.y - enemytest->y, time);
+		if(enemytest->isValid)
+		{
+			enemytest->move(g, g->player1.x - enemytest->x, g->player1.y - enemytest->y, time);
+		}
 		enemytest++;
+
 	}
 
 	shot* shotTemp = g->shots;
 	for(int i = 0; i < g->shotArraySize; i++)
 	{
-		shotTemp->move(g, time);
+		if(shotTemp->isValid)
+		{
+			shotTemp->move(g, time);
+		}
 		shotTemp++;
 	}
 
@@ -1207,18 +1214,16 @@ enemy* collideEnemies(Game* g, double x, double y, double w, double h)
 	enemy* test = g->enemies;
 	for (int i = 0; i < g->enemyArraySize; i++)
 	{
-		if(!(x == test->x || y == test->y))
+		if(!(abs(x - test->x) < 1 && abs(y - test->y) < 1) && test->isValid)
 		{
-			if(test->isValid)
+			if (!(y > test->y + test->height ||
+				y + h < test->y ||
+				x > test->x + test->width ||
+				x + w < test->x))
 			{
-				if (!(y > test->y + test->height ||
-					y + h < test->y ||
-					x > test->x + test->width ||
-					x + w < test->x))
-				{
-					return test;
-				}
+				return test;
 			}
+			
 		}
 		test++;
 	}
@@ -1235,18 +1240,18 @@ bool collideMap(Game* g, double x, double y, double w, double h)
 bool collidePlayer(Game* g, double x, double y, double w, double h)
 {
 	player* test = &g->player1;
-	if(!(x == test->x || y == test->y))
+	
+
+	if(test->isValid)
 	{
-		if(test->isValid)
+		if (!(y > test->y + test->height ||
+			y + h < test->y ||
+			x > test->x + test->width ||
+			x + w < test->x))
 		{
-			if (!(y > test->y + test->height ||
-				y + h < test->y ||
-				x > test->x + test->width ||
-				x + w < test->x))
-			{
-				return true;
-			}
+			return true;
 		}
+
 	}
 	return 0 ;
 }
@@ -1255,7 +1260,7 @@ key* collideKeys(Game* g, double x, double y, double w, double h)
 	key* test = g->gameKeys;
 	for (int i = 0; i < g->keyArraySize; i++)
 	{
-		if(!(x == test->x || y == test->y))
+		if(!(x == test->x && y == test->y))
 		{
 			if(test->isValid)
 			{

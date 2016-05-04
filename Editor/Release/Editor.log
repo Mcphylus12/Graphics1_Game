@@ -1,48 +1,12 @@
-﻿Build started 04/05/2016 16:41:59.
+﻿Build started 04/05/2016 18:41:20.
      1>Project "D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Editor\Editor.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\Editor.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
-         Game.cpp
-     1>Game.cpp(50): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>Game.cpp(50): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>Game.cpp(138): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>Game.cpp(140): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>Game.cpp(575): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(575): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(589): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(589): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(598): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(598): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(610): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(610): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(625): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(625): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(633): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(633): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(637): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>Game.cpp(648): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(648): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(655): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(655): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(656): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(656): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(657): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(657): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(658): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(658): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(666): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(667): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(667): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>Game.cpp(668): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         All outputs are up-to-date.
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Release\Editor.exe" /INCREMENTAL:NO /NOLOGO openGL32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Editor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Release\Editor.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Release\Editor.lib" /MACHINE:X86 Release\Game.obj
-         Generating code
-         Finished generating code
+         All outputs are up-to-date.
          Editor.vcxproj -> D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Release\Editor.exe
-       Manifest:
-         D:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Release\Editor.exe;#1" /manifest Release\Editor.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Release\Editor.unsuccessfulbuild".
          Touching "Release\Editor.lastbuildstate".
@@ -50,4 +14,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.08
+Time Elapsed 00:00:00.08

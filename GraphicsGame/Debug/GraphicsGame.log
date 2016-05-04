@@ -1,46 +1,46 @@
-﻿Build started 04/05/2016 16:41:00.
+﻿Build started 04/05/2016 18:41:27.
      1>Project "D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\GraphicsGame\GraphicsGame.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\GraphicsGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
          Game.cpp
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(582): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(582): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(611): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(611): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(625): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(625): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(634): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(634): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(646): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(646): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(661): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(661): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(662): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(670): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(670): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(674): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(689): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(689): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(690): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(690): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(691): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(691): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(692): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(692): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(589): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(589): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(618): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(618): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(632): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(632): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(641): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(641): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(653): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(653): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(668): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(668): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(669): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(677): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(677): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(681): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(696): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(696): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(697): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(697): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
      1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(698): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
      1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(698): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
      1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(699): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
      1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(699): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(700): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(700): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(701): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(701): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(712): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(713): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(713): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(714): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(705): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(705): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(706): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(706): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(707): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(707): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(708): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(708): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(719): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(720): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(720): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\users\mcphy\documents\visual studio 2013\graphicsgame\graphicsgame\game.cpp(721): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Debug\GraphicsGame.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"\\ueahome4\stusci5\gmj14gru\data\Documents\Visual Studio 2010\Projects\GraphicsGame\GraphicsGame\Image_Loading" /LIBPATH:"SDK Path\Lib" openGL32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GraphicsGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Debug\GraphicsGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Debug\GraphicsGame.lib" /MACHINE:X86 Debug\Game.obj
      1>Game.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
@@ -54,4 +54,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.63
+Time Elapsed 00:00:01.20
