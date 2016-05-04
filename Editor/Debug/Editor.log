@@ -1,4 +1,4 @@
-﻿Build started 04/05/2016 15:29:15.
+﻿Build started 04/05/2016 16:41:00.
      1>Project "D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\Editor\Editor.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Editor.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -54,4 +54,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.25
+Time Elapsed 00:00:01.56
