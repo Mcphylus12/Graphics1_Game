@@ -1,4 +1,4 @@
-﻿Build started 04/05/2016 14:58:29.
+﻿Build started 04/05/2016 16:02:54.
      1>Project "D:\Users\mcphy\Documents\Visual Studio 2013\GraphicsGame\GraphicsGame\GraphicsGame.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\GraphicsGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -54,4 +54,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.12
+Time Elapsed 00:00:01.06

@@ -352,10 +352,10 @@ void setWorld(Game* g, int worldNumber)
 {
 	g->curTileMap = &g->tileMaps[worldNumber];
 	g->curLevel = worldNumber;
-	memset(g->doors, 0, g->doorArraySize * sizeof(door));
-	memset(g->enemies, 0, g->enemyArraySize * sizeof(enemy));
-	memset(g->gameKeys, 0, g->keyArraySize * sizeof(key));
-	memset(g->shots, 0, g->shotArraySize * sizeof(shot));
+	memset(g->doors, 0, sizeof(g->doorArraySize));
+	memset(g->enemies, 0, sizeof(g->enemyArraySize));
+	memset(g->gameKeys, 0, sizeof(g->keyArraySize));
+	memset(g->shots, 0, sizeof(g->shotArraySize));
 
 
 	Tile* t;
@@ -883,11 +883,6 @@ void player::move(Game* g, double dx, double dy,  double time)
 	}
 
 
-	if(collideEnemies(g, x, y, width, height))
-	{
-		loseGame(g);
-		
-	}
 
 
 
@@ -944,6 +939,8 @@ void player::move(Game* g, double dx, double dy,  double time)
 			setWorld(g, g->curLevel + 1);
 		}
 	}
+
+
 }
 
 
@@ -1123,7 +1120,7 @@ void shot::move(Game* g, double time)
 
 void loadLevelSet(Game* g, char* fileName)
 {
-	memset(g->keys, 0, sizeof(bool)*256);
+	memset(g->keys, 0, sizeof(g->keys));
 	g->levelCount = 0;
 	FILE* levelsetFile;
 	char* nextToken;
@@ -1278,16 +1275,11 @@ key* collideKeys(Game* g, double x, double y, double w, double h)
 
 void loseGame(Game* g)
 {
-	int result = MessageBox(NULL, "you got hit son. unlucky. play again", "things have not gone so well for you", MB_YESNO);
-	switch(result)
-	{
-	case IDYES:
-		loadLevelSet(g);
-		break;
-	case IDNO:
+
+	
+	
+	MessageBox(NULL, "you got hit son. unlucky. Game over", "things have not gone so well for you", MB_OK);
 		g->done = true;
-		break;
-	}
 }
 
 

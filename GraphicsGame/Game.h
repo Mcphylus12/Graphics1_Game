@@ -129,7 +129,7 @@ struct Game
 };
 
 
-void loadLevelSet(Game* g, char* fileName = "levels1.txt");
+void loadLevelSet(Game* g, char* fileName = "levels.txt");
 void setStair(Game* g, double x, double y, int texID);
 void setPlayer(Game* g, double x, double y, int texID);
 void addDoor(Game* g, double x, double y, int texID);

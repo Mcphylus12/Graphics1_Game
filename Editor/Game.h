@@ -89,6 +89,7 @@ struct Tilemap
 
 struct Game
 {
+
 	int floorTex;
 	int wallTex;
 	int shotTex;
