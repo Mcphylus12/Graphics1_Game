@@ -5,7 +5,7 @@ int windowWidth;
 int windowHeight;
 double camZoom;
 struct Game;
-
+int score;
 class entity
 {
 public:
@@ -51,6 +51,7 @@ class player : public entity
 {
 public:
 	int keyCount;
+	
 	double shotCoolDown, curCoolDown;
 	void move(Game* g, double dx, double dy,  double time);
 };

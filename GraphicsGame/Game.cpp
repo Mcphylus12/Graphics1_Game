@@ -319,6 +319,7 @@ void initGL()
 
 void initGame(Game* g)
 {
+	score = 0;
 	g->floorTex = loadPNG("metal_plates.png");
 	g->wallTex = loadPNG("wall.png");
 	g->shotTex = loadPNG("shot.png");
@@ -896,6 +897,7 @@ void player::move(Game* g, double dx, double dy,  double time)
 	if(key* k = collideKeys(g, x, y, width, height))
 	{
 		keyCount++;
+		score++;
 		removeKey(g, k);
 	}
 
@@ -936,9 +938,13 @@ void player::move(Game* g, double dx, double dy,  double time)
 	}
 	if(collideStairs(g, x, y, width, height))
 	{
+
+
 		if(g->curLevel == g->levelCount)
 		{
-			MessageBox(NULL, "you win", "WINNNNNNERNERENRNERNERN", MB_OK);
+			char* winmsg = "";
+			sprintf(winmsg, "you win. you collected  %d keys. well done", score);
+			MessageBox(NULL, winmsg, "WINNNNNNERNERENRNERNERN", MB_OK);
 			g->done = true;
 		} 
 		else
